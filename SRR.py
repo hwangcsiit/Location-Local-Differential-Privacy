@@ -193,7 +193,7 @@ def EM(domain, data, transform, fre):
     		fre3[i] = 0
     summ = sum(fre3)
     for i in range(len(fre3)):
-        fre3[i] = fre3[i]/summ*14435
+        fre3[i] = fre3[i]/summ*len(data)
     return fre3
 
 def EML(n, ns_hist, transform, max_iteration=1000, loglikelihood_threshold=3):
