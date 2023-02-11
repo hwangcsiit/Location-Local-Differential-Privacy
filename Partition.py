@@ -65,10 +65,10 @@ def objFun(x):
 
 
 def constraint1(x):
-    return x[0]-x[1]
+    return x[0]-x[1]+1
 
 def constraint2(x):
-    return x[1]-x[2]
+    return x[1]-x[2]+1
 
 def comparestring(loc1, loc2, beta):
 	com = 0
